@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, ReactNode } from 'react'
-import { Poll, PollOption, UserVote } from '../types/polling'
+import { Poll, UserVote } from '../types/polling'
 
 interface PollingContextType {
   polls: Poll[];
